@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.section {
+  margin: 20px;
+}
+
+.section h2 {
+  margin-bottom: 10px;
+}
+
+.section div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section div a {
+  text-decoration: none;
+  color: #333;
+  background-color: #ccc;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.section div a:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+#image {
+  /* border: 2px solid red; */
+  margin-top: 10px;
+  margin-left: 0;
+
+}
+
+#image > img {
+  width: 70%;
+  height: 77vh;
+  margin-left: -510px;
+}
